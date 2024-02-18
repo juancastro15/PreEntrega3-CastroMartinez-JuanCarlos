@@ -9,7 +9,7 @@
     <!-- CDN para conectarme a Bootstrap -->
 
     <!--CSS-->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <!--CSS-->
 
     <!--Google Fonts-->
@@ -18,7 +18,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&display=swap" rel="stylesheet">
     <!--Google Fonts-->
 
-    <title>Gift Shop</title>
+    <title>Contacto</title>
 </head>
 <body>
 
@@ -30,7 +30,7 @@
     <header>
         <nav>
             <ul>
-                <li><a href="index.html"><img src="Imagenes/logo-malaga.png" alt="el logo de la pagina">INICIO</a></li>
+                <li><a href="../index.html"><img src="../Imagenes/logo-malaga.png" alt="el logo de la pagina">INICIO</a></li>
                 <li><a href="nosotros.html">QUIENES SOMOS</a></li>
                 <li><a href="servicios.html">SERVICIOS</a></li>
                 <li><a href="products.html">PRODUCTOS</a></li>
@@ -40,21 +40,49 @@
     </header>
     <!--Fin de nuestro Header-->
 
+    <!--Inicio de nuestra Section Introductoria de contacto-->
     <section>
         <div>
-            <h1>¡Tesoro en Cada Recuerdo! Descubre Nuestra Tienda de Regalos y Souvenirs</h1>
+            <h1>¿Listo para Tu Próxima Aventura?</h1>
         </div>
 
         <div>
-            <p>No solo ofrecemos experiencias inolvidables, sino también la oportunidad de llevar contigo un pedacito de este lugar especial. Nuestra Tienda de Regalos y Souvenirs, donde cada artículo cuenta una historia y captura la esencia única de nuestro destino.</p>
+            <p>Nuestro equipo está preparado para hacer que tu viaje sea inolvidable ¡Contáctanos ahora y déjanos crear el viaje perfecto para ti!</p>
         </div>
     </section>
-    <!--Fin de la Section Introductoria-->
+    <!--Fin de nuestra Section-->
 
-    <!--Inicio del Main-->
-    <main>los productos que se venderan</main>
+    <!--Inicio del Main con el formulario de contacto-->
+    <main>
+        <section class="contact">
+            <h2>Contactanos</h2>
+            <form>
+                <fieldset>
+                    <legend class="contacttext">Si desea viajar con nosotros, Rellene el siguiente formulario con su email y comentenos sus ideas de viaje. Nuestro equipo se estara contactando con usted lo antes posible.</legend>
+                    <div class="name">
+                        <label for="name">Nombre:</label>
+                        <input type="text" id="name" placeholder="Name" class="nameinput" required>
+                    </div>
+
+                    <div class="email">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" placeholder="Email" class="emailinput" required>
+                    </div>
+
+                    <div class="message">
+                        <label for="textarea">Message:</label>
+                        <textarea id="textarea" placeholder="Su plan de viaje" class="messageinput" rows="6" cols="40" required></textarea>
+                    </div>
+
+                    <div class="formbuttondiv">
+                        <button class="formbutton">Enviar</button>
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+    </main>
     <!--Fin del Main-->
-    
+
     <!--Inicio del Footer-->
     <footer>
         <div>
@@ -62,5 +90,6 @@
         </div>
     </footer>
     <!--Fin del Footer-->
+    
 </body>
 </html>
