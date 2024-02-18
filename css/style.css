@@ -32,7 +32,7 @@
 }
 
 .button-decoration {
-  padding: 10%;
+  padding: 5%;
 }
 .button-decoration ul {
   list-style: none;
@@ -121,6 +121,43 @@
 }
 .autor-end div p {
   color: black;
+}
+
+.noso-bdy {
+  background-color: #FFE4B5;
+}
+
+.navb {
+  background-color: #FFF8DC;
+  padding: 10px;
+  text-align: center;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+.navb nav {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.navb nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navb nav ul li {
+  display: inline-block;
+  margin: 0 1%;
+}
+.navb nav ul li a {
+  font-family: "Bebas Neue", sans-serif;
+  text-decoration: none;
+  color: gray;
+}
+.navb nav ul li a img {
+  max-width: 50px;
+  margin-right: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
