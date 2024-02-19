@@ -39,3 +39,56 @@
         }
     }
 }
+
+.identity {
+    padding: 15px 5px 15px 5px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+
+    div {
+
+        h1 {
+            text-align: center;
+            font-family: "Bebas Neue", sans-serif;
+            font-size: 2em;
+        }
+    }
+
+    .amigos-img {
+
+        img {
+            width: 70%;
+            margin: 0 auto;
+            display: block;
+        }
+    }
+}
+
+.adj-first {
+    padding-top: 5px;
+
+    div {
+        margin: 5px;
+
+        h2 {
+            font-family: "Bebas Neue", sans-serif;
+        }
+    }
+}
+
+.foot-nos-aut {
+    display: flex;
+    justify-content: center;
+    font-family: "Bebas Neue", sans-serif;
+    border-top: 2px solid white;
+    background-color: #bdb76b;
+
+    div {
+        margin-top: 5px;
+
+        p {
+
+        }
+    }
+}
