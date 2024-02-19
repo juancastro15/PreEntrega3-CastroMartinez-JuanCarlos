@@ -197,5 +197,37 @@
 .foot-nos-aut div {
   margin-top: 5px;
 }
+.serv-nav {
+  background-color: #FFF8DC;
+  padding: 10px;
+  text-align: center;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+.serv-nav nav {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.serv-nav nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.serv-nav nav ul li {
+  display: inline-block;
+  margin: 0 1%;
+}
+.serv-nav nav ul li a {
+  font-family: "Bebas Neue", sans-serif;
+  text-decoration: none;
+  color: gray;
+}
+.serv-nav nav ul li a img {
+  max-width: 50px;
+  margin-right: 10px;
+}
 
 /*# sourceMappingURL=style.css.map */
