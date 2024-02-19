@@ -197,6 +197,11 @@
 .foot-nos-aut div {
   margin-top: 5px;
 }
+
+.ser-bdy {
+  background-color: #FFE4B5;
+}
+
 .serv-nav {
   background-color: #FFF8DC;
   padding: 10px;
@@ -228,6 +233,83 @@
 .serv-nav nav ul li a img {
   max-width: 50px;
   margin-right: 10px;
+}
+
+.discover {
+  padding: 15px 0px;
+}
+.discover div h1 {
+  margin: 0px 10px;
+}
+.discover .modi-text {
+  padding-top: 5px;
+}
+.discover .modi-text p {
+  margin: 5px;
+}
+.discover .modi-text p em {
+  font-weight: bold;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.cards .red {
+  background-color: #f43f5e;
+}
+.cards .blue {
+  background-color: #3b82f6;
+}
+.cards .green {
+  background-color: #22c55e;
+}
+.cards .card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  height: 100px;
+  width: 250px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  transition: 400ms transform, 400ms box-shadow, 400ms background-color;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.cards .card p.tip {
+  font-size: 1em;
+  font-weight: 700;
+}
+.cards .card p.second-text {
+  font-size: 0.7em;
+}
+.cards .card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #333;
+}
+.cards:hover > .card:not(:hover) {
+  filter: blur(10px);
+  transform: scale(0.9);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.adventure {
+  padding: 10px 5px;
+}
+.foot-ser-aut {
+  display: flex;
+  justify-content: center;
+  font-family: "Bebas Neue", sans-serif;
+  border-top: 2px solid white;
+  background-color: #bdb76b;
+}
+.foot-ser-aut div {
+  margin-top: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */
