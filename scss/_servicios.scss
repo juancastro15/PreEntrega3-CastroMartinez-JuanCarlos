@@ -43,21 +43,21 @@
 
 
 .discover {
-    padding: 15px 0px;
+    padding: 25px 0px;
 
     div {
 
         h1 {
-            margin: 0px 10px;
-
+            margin: 0px 15px;
+            font-family: "Lilita One", sans-serif;
         }
     }
 
     .modi-text {
-        padding-top: 5px;
+        padding: 5px;
 
         p {
-            margin: 5px;
+            margin: 15px;
 
             em {
                 font-weight: bold;
@@ -67,70 +67,86 @@
 }
 
 
+.ab-crd {
+    padding: 15px;
 
-.cards {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-  
-    .red {
-      background-color: #f43f5e;
+    div {
+        margin: 20px;
+        text-align: center;
+
+        h2 {
+            font-family: "Lilita One", sans-serif;
+            font-size: 3em;
+        }
     }
-  
-    .blue {
-      background-color: #3b82f6;
-    }
-  
-    .green {
-      background-color: #22c55e;
-    }
-  
-    .card {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
-      text-align: center;
-      height: 100px;
-      width: 250px;
-      border-radius: 10px;
-      color: white;
-      cursor: pointer;
-      transition: 400ms transform, 400ms box-shadow, 400ms background-color;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  
-      p.tip {
-        font-size: 1em;
-        font-weight: 700;
-      }
-  
-      p.second-text {
-        font-size: 0.7em;
-      }
-  
-      &:hover {
-        transform: scale(1.1);
-        box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
-        background-color: rgba(255, 255, 255, 0.1);
-        color: #333;
-      }
-    }
-  
-    &:hover > .card:not(:hover) {
-      filter: blur(10px);
-      transform: scale(0.9);
-      box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 25px;
+      
+        .red {
+          background-color: #f43f5e;
+        }
+      
+        .blue {
+          background-color: #3b82f6;
+        }
+      
+        .green {
+          background-color: #22c55e;
+        }
+      
+        .card {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          text-align: center;
+          height: 150px;
+          width: 350px;
+          border-radius: 10px;
+          color: white;
+          cursor: pointer;
+          transition: 400ms transform, 400ms box-shadow, 400ms background-color;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      
+          p.tip {
+            font-size: 1em;
+            font-weight: 700;
+          }
+      
+          p.second-text {
+            font-size: 0.7em;
+          }
+      
+          &:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+            background-color: rgba(255, 255, 255, 0.1);
+            color: #333;
+          }
+        }
+      
+        &:hover > .card:not(:hover) {
+          filter: blur(10px);
+          transform: scale(0.9);
+          box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        }
     }
 }
+
   
 
 .adventure {
-    padding: 10px 5px;
+    padding: 10px;
 
     div {
-
+        margin: 10px;
         h3{
-            
+            font-family: "Lilita One", sans-serif;
+
         }
     }
 }

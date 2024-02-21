@@ -168,7 +168,7 @@
 }
 .identity div h1 {
   text-align: center;
-  font-family: "Bebas Neue", sans-serif;
+  font-family: "Lilita One", sans-serif;
   font-size: 2em;
 }
 .identity .amigos-img img {
@@ -179,12 +179,19 @@
 
 .adj-first {
   padding-top: 5px;
+  padding-bottom: 20px;
+  text-align: center;
 }
 .adj-first div {
   margin: 5px;
 }
 .adj-first div h2 {
-  font-family: "Bebas Neue", sans-serif;
+  font-family: "Lilita One", sans-serif;
+}
+.adj-first .soc-net a img {
+  max-width: 100px;
+  height: 100px;
+  margin: 0 30px;
 }
 
 .foot-nos-aut {
@@ -195,6 +202,63 @@
   background-color: #bdb76b;
 }
 .foot-nos-aut div {
+  margin-top: 5px;
+}
+
+.merch-bdy {
+  background-color: #FFE4B5;
+}
+
+.produ-nvb {
+  background-color: #FFF8DC;
+  padding: 10px;
+  text-align: center;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+.produ-nvb nav {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.produ-nvb nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.produ-nvb nav ul li {
+  display: inline-block;
+  margin: 0 1%;
+}
+.produ-nvb nav ul li a {
+  font-family: "Bebas Neue", sans-serif;
+  text-decoration: none;
+  color: gray;
+}
+.produ-nvb nav ul li a img {
+  max-width: 50px;
+  margin-right: 10px;
+}
+
+.int-merch {
+  padding: 15px;
+}
+.int-merch .first-ti-me h1 {
+  font-family: "Lilita One", sans-serif;
+}
+.int-merch .text-comment {
+  margin-top: 15px;
+}
+.buy-foot-aut {
+  display: flex;
+  justify-content: center;
+  font-family: "Bebas Neue", sans-serif;
+  border-top: 2px solid white;
+  background-color: #bdb76b;
+}
+.buy-foot-aut div {
   margin-top: 5px;
 }
 
@@ -236,71 +300,91 @@
 }
 
 .discover {
-  padding: 15px 0px;
+  padding: 25px 0px;
 }
 .discover div h1 {
-  margin: 0px 10px;
+  margin: 0px 15px;
+  font-family: "Lilita One", sans-serif;
 }
 .discover .modi-text {
-  padding-top: 5px;
+  padding: 5px;
 }
 .discover .modi-text p {
-  margin: 5px;
+  margin: 15px;
 }
 .discover .modi-text p em {
   font-weight: bold;
 }
 
-.cards {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
+.ab-crd {
+  padding: 15px;
 }
-.cards .red {
+.ab-crd div {
+  margin: 20px;
+  text-align: center;
+}
+.ab-crd div h2 {
+  font-family: "Lilita One", sans-serif;
+  font-size: 3em;
+}
+.ab-crd .cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+.ab-crd .cards .red {
   background-color: #f43f5e;
 }
-.cards .blue {
+.ab-crd .cards .blue {
   background-color: #3b82f6;
 }
-.cards .green {
+.ab-crd .cards .green {
   background-color: #22c55e;
 }
-.cards .card {
+.ab-crd .cards .card {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  height: 100px;
-  width: 250px;
+  height: 150px;
+  width: 350px;
   border-radius: 10px;
   color: white;
   cursor: pointer;
   transition: 400ms transform, 400ms box-shadow, 400ms background-color;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
-.cards .card p.tip {
+.ab-crd .cards .card p.tip {
   font-size: 1em;
   font-weight: 700;
 }
-.cards .card p.second-text {
+.ab-crd .cards .card p.second-text {
   font-size: 0.7em;
 }
-.cards .card:hover {
+.ab-crd .cards .card:hover {
   transform: scale(1.1);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
   background-color: rgba(255, 255, 255, 0.1);
   color: #333;
 }
-.cards:hover > .card:not(:hover) {
+.ab-crd .cards:hover > .card:not(:hover) {
   filter: blur(10px);
   transform: scale(0.9);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
 .adventure {
-  padding: 10px 5px;
+  padding: 10px;
 }
+.adventure div {
+  margin: 10px;
+}
+.adventure div h3 {
+  font-family: "Lilita One", sans-serif;
+}
+
 .foot-ser-aut {
   display: flex;
   justify-content: center;

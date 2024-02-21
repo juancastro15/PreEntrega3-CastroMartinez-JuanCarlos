@@ -50,7 +50,7 @@
 
         h1 {
             text-align: center;
-            font-family: "Bebas Neue", sans-serif;
+            font-family: "Lilita One", sans-serif;
             font-size: 2em;
         }
     }
@@ -67,12 +67,24 @@
 
 .adj-first {
     padding-top: 5px;
+    padding-bottom: 20px;
+    text-align: center;
 
     div {
         margin: 5px;
 
         h2 {
-            font-family: "Bebas Neue", sans-serif;
+            font-family: "Lilita One", sans-serif;
+        }
+    }
+
+    .soc-net {
+        a {
+            img {
+                max-width: 100px; 
+                height: 100px;
+                margin: 0 30px;
+            }
         }
     }
 }
