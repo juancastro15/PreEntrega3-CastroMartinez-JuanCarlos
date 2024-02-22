@@ -42,6 +42,7 @@
 
 .int-merch {
     padding: 15px;
+
     .first-ti-me {
         h1 {
             font-family: "Lilita One", sans-serif;
@@ -144,13 +145,13 @@
 
 
 .buy-foot-aut {
-    display: flex;
-    justify-content: center;
-    font-family: "Bebas Neue", sans-serif;
-    border-top: 2px solid white;
-    background-color: #bdb76b;
+  display: flex;
+  justify-content: center;
+  font-family: "Bebas Neue", sans-serif;
+  border-top: 2px solid white;
+  background-color: #bdb76b;
 
-    div {
-        margin-top: 5px;
-    }
+  div {
+    margin-top: 5px;
+  }
 }

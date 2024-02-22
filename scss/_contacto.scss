@@ -1,3 +1,7 @@
+.end-bdy {
+    background-color: #FFE4B5;
+}
+
 .finder {
     
     background-color: #FFF8DC;
@@ -36,4 +40,54 @@
         }
     }
 
+}
+
+.ready {
+    padding: 10px;
+
+    .big {
+
+        h1 {
+            font-family: "Lilita One", sans-serif;
+        }
+    }
+
+    .rb2 {
+        margin: 5px;
+        p {
+
+        }
+    }
+}
+
+.form-p {
+    padding-bottom: 30px;
+
+    .contact {
+
+        h2 {
+            font-family: "Lilita One", sans-serif;
+            margin: 10px;
+        }
+
+        form {
+            margin: 5px;
+
+            fieldset {
+
+            }
+        }
+    }
+}
+
+.limit-ft {
+    display: flex;
+  justify-content: center;
+  font-family: "Bebas Neue", sans-serif;
+  border-top: 2px solid white;
+  background-color: #bdb76b;
+
+  div {
+    margin-top: 5px;
+  }
 }

@@ -123,6 +123,10 @@
   color: black;
 }
 
+.end-bdy {
+  background-color: #FFE4B5;
+}
+
 .finder {
   background-color: #FFF8DC;
   padding: 10px;
@@ -154,6 +158,36 @@
 .finder nav ul li a img {
   max-width: 50px;
   margin-right: 10px;
+}
+
+.ready {
+  padding: 10px;
+}
+.ready .big h1 {
+  font-family: "Lilita One", sans-serif;
+}
+.ready .rb2 {
+  margin: 5px;
+}
+.form-p {
+  padding-bottom: 30px;
+}
+.form-p .contact h2 {
+  font-family: "Lilita One", sans-serif;
+  margin: 10px;
+}
+.form-p .contact form {
+  margin: 5px;
+}
+.limit-ft {
+  display: flex;
+  justify-content: center;
+  font-family: "Bebas Neue", sans-serif;
+  border-top: 2px solid white;
+  background-color: #bdb76b;
+}
+.limit-ft div {
+  margin-top: 5px;
 }
 
 .noso-bdy {
