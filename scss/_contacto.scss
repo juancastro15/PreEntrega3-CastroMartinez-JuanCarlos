@@ -1,0 +1,39 @@
+.finder {
+    
+    background-color: #FFF8DC;
+    padding: 10px;
+    text-align: center;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+
+    nav {
+        overflow-x: auto;
+        white-space: nowrap;
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            li {
+                display: inline-block;
+                margin: 0 1%;
+
+                a {
+                    font-family: "Bebas Neue", sans-serif;
+                    text-decoration: none;
+                    color: gray;
+
+                    img {
+                        max-width: 50px;
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+    }
+
+}
