@@ -169,16 +169,45 @@
 .ready .rb2 {
   margin: 5px;
 }
-.form-p {
-  padding-bottom: 30px;
-}
 .form-p .contact h2 {
-  font-family: "Lilita One", sans-serif;
-  margin: 10px;
+  margin-bottom: 20px;
 }
-.form-p .contact form {
-  margin: 5px;
+.form-p .contact form fieldset {
+  margin: 0;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
 }
+.form-p .contact form fieldset legend {
+  margin-bottom: 15px;
+}
+.form-p .contact form fieldset .form-group {
+  margin-bottom: 20px;
+}
+.form-p .contact form fieldset .form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.form-p .contact form fieldset .form-group .input-field {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.form-p .contact form fieldset .submit-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.form-p .contact form fieldset .submit-button:hover {
+  background-color: #45a049;
+}
+
 .limit-ft {
   display: flex;
   justify-content: center;

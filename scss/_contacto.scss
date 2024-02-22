@@ -61,24 +61,57 @@
 }
 
 .form-p {
-    padding-bottom: 30px;
-
     .contact {
-
         h2 {
-            font-family: "Lilita One", sans-serif;
-            margin: 10px;
+            margin-bottom: 20px;
         }
 
         form {
-            margin: 5px;
-
             fieldset {
+                margin: 0;
+                padding: 20px;
+                border: 1px solid #ddd;
+                border-radius: 8px;
 
+                legend {
+                    margin-bottom: 15px;
+                }
+
+                .form-group {
+                    margin-bottom: 20px;
+
+                    label {
+                        display: block;
+                        margin-bottom: 5px;
+                        font-weight: bold;
+                    }
+
+                    .input-field {
+                        width: 100%;
+                        padding: 10px;
+                        border: 1px solid #ccc;
+                        border-radius: 5px;
+                    }
+                }
+
+                .submit-button {
+                    background-color: #4CAF50;
+                    color: white;
+                    padding: 10px 15px;
+                    border: none;
+                    border-radius: 5px;
+                    cursor: pointer;
+                    font-size: 16px;
+
+                    &:hover {
+                        background-color: #45a049;
+                    }
+                }
             }
         }
     }
 }
+
 
 .limit-ft {
     display: flex;
