@@ -21,6 +21,12 @@
   width: 100px;
   height: auto;
 }
+@media only screen and (max-width: 480px) {
+  .first-logo h1 {
+    font-size: 1.8em;
+    padding: 10px;
+  }
+}
 @media only screen and (max-width: 768px) {
   .first-logo h1 {
     font-size: 2.5em;

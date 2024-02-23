@@ -22,8 +22,13 @@
             height: auto;
         }
 
+        @media only screen and (max-width: 480px) {
+            font-size: 1.8em;
+            padding: 10px;
+        }
+
         @media only screen and (max-width: 768px) {
-            font-size: 2.5em; // Ajusta el tamaño de la fuente para pantallas más pequeñas si es necesario
+            font-size: 2.5em;
             padding: 15px;
         }
     }
