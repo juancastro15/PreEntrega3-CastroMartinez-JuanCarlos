@@ -37,6 +37,24 @@
                 }
             }
         }
+
+        /* DEBO ARREGLAR */
+        @media only screen and (768) {
+            display: none; 
+        }
+    }
+
+    @media only screen and (max-width: 768px) {    
+        .navbar {
+            /* Ajusta estilos según sea necesario para el navbar de Bootstrap en pantallas pequeñas */
+            padding: 10px; /* Ejemplo de ajuste de padding */
+        }
+    
+        .navbar img {
+            /* Ajusta el tamaño de la imagen dentro del navbar de Bootstrap */
+            width: 50px; /* Ejemplo de tamaño más pequeño */
+            height: auto; /* Mantiene la proporción de la imagen */
+        }
     }
 }
 

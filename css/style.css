@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .init {
   background-image: url(../Imagenes/mlaga-2.jpeg);
   background-repeat: no-repeat;
@@ -277,6 +278,7 @@
 .navb nav {
   overflow-x: auto;
   white-space: nowrap;
+  /* DEBO ARREGLAR */
 }
 .navb nav ul {
   list-style-type: none;
@@ -298,6 +300,22 @@
 .navb nav ul li a img {
   max-width: 50px;
   margin-right: 10px;
+}
+@media only screen and (768) {
+  .navb nav {
+    display: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .navb .navbar {
+    /* Ajusta estilos según sea necesario para el navbar de Bootstrap en pantallas pequeñas */
+    padding: 10px; /* Ejemplo de ajuste de padding */
+  }
+  .navb .navbar img {
+    /* Ajusta el tamaño de la imagen dentro del navbar de Bootstrap */
+    width: 50px; /* Ejemplo de tamaño más pequeño */
+    height: auto; /* Mantiene la proporción de la imagen */
+  }
 }
 
 .identity {
