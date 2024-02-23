@@ -21,7 +21,13 @@
             width: 100px;
             height: auto;
         }
+
+        @media only screen and (max-width: 768px) {
+            font-size: 2.5em; // Ajusta el tamaño de la fuente para pantallas más pequeñas si es necesario
+            padding: 15px;
+        }
     }
+
 }
 
 .introduction {
@@ -122,6 +128,10 @@
         
                     &:active {
                     transform: scale(0.95);
+                    }
+
+                    @media only screen and (max-width: 768px) {
+                        font-size: 15px;
                     }
                 }
             }

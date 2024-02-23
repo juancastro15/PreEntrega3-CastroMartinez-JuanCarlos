@@ -21,6 +21,12 @@
   width: 100px;
   height: auto;
 }
+@media only screen and (max-width: 768px) {
+  .first-logo h1 {
+    font-size: 2.5em;
+    padding: 15px;
+  }
+}
 
 .introduction div p {
   text-align: center;
@@ -107,6 +113,11 @@
 }
 .button-decoration ul li a.cssbuttons-io:active {
   transform: scale(0.95);
+}
+@media only screen and (max-width: 768px) {
+  .button-decoration ul li a.cssbuttons-io {
+    font-size: 15px;
+  }
 }
 
 .autor-end {
