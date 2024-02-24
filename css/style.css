@@ -1,4 +1,3 @@
-@charset "UTF-8";
 .init {
   background-image: url(../Imagenes/mlaga-2.jpeg);
   background-repeat: no-repeat;
@@ -275,12 +274,11 @@
   border-top: 2px solid black;
   border-bottom: 2px solid black;
 }
-.navb nav {
+.navb .the-first {
   overflow-x: auto;
   white-space: nowrap;
-  /* DEBO ARREGLAR */
 }
-.navb nav ul {
+.navb .the-first ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -288,33 +286,36 @@
   align-items: center;
   justify-content: space-between;
 }
-.navb nav ul li {
+.navb .the-first ul li {
   display: inline-block;
   margin: 0 1%;
 }
-.navb nav ul li a {
+.navb .the-first ul li a {
   font-family: "Bebas Neue", sans-serif;
   text-decoration: none;
   color: gray;
 }
-.navb nav ul li a img {
+.navb .the-first ul li a img {
   max-width: 50px;
   margin-right: 10px;
 }
-@media only screen and (768) {
-  .navb nav {
+@media only screen and (max-width: 768px) {
+  .navb .the-first {
     display: none;
   }
 }
+.navb .boots-nav img {
+  width: 50px;
+  height: auto;
+}
 @media only screen and (max-width: 768px) {
-  .navb .navbar {
-    /* Ajusta estilos según sea necesario para el navbar de Bootstrap en pantallas pequeñas */
+  .navb .boots-nav {
     padding: 10px; /* Ejemplo de ajuste de padding */
   }
-  .navb .navbar img {
-    /* Ajusta el tamaño de la imagen dentro del navbar de Bootstrap */
-    width: 50px; /* Ejemplo de tamaño más pequeño */
-    height: auto; /* Mantiene la proporción de la imagen */
+}
+@media only screen and (min-width: 981px) {
+  .navb .boots-nav {
+    display: none;
   }
 }
 

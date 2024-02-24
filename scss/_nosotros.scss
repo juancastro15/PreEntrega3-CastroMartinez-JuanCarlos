@@ -9,7 +9,7 @@
     border-top: 2px solid black;
     border-bottom: 2px solid black;
 
-    nav {
+    .the-first {
         overflow-x: auto;
         white-space: nowrap;
 
@@ -38,22 +38,26 @@
             }
         }
 
-        /* DEBO ARREGLAR */
-        @media only screen and (768) {
-            display: none; 
+        @media only screen and (max-width: 768px) {
+            display: none;
         }
     }
 
-    @media only screen and (max-width: 768px) {    
-        .navbar {
-            /* Ajusta estilos según sea necesario para el navbar de Bootstrap en pantallas pequeñas */
-            padding: 10px; /* Ejemplo de ajuste de padding */
+    .boots-nav {
+
+        img {
+            width: 50px;
+            height: auto;
         }
-    
-        .navbar img {
-            /* Ajusta el tamaño de la imagen dentro del navbar de Bootstrap */
-            width: 50px; /* Ejemplo de tamaño más pequeño */
-            height: auto; /* Mantiene la proporción de la imagen */
+
+        @media only screen and (max-width:768px) {
+            padding: 10px; /* Ejemplo de ajuste de padding */
+
+            
+        }
+
+        @media only screen and (min-width:981px) {
+            display: none; 
         }
     }
 }
