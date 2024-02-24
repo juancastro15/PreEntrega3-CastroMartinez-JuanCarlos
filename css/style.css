@@ -310,7 +310,7 @@
 }
 @media only screen and (max-width: 768px) {
   .navb .boots-nav {
-    padding: 10px; /* Ejemplo de ajuste de padding */
+    padding: 10px;
   }
 }
 @media only screen and (min-width: 981px) {
@@ -531,11 +531,11 @@
   border-top: 2px solid black;
   border-bottom: 2px solid black;
 }
-.serv-nav nav {
+.serv-nav .the-second {
   overflow-x: auto;
   white-space: nowrap;
 }
-.serv-nav nav ul {
+.serv-nav .the-second ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -543,18 +543,37 @@
   align-items: center;
   justify-content: space-between;
 }
-.serv-nav nav ul li {
+.serv-nav .the-second ul li {
   display: inline-block;
   margin: 0 1%;
 }
-.serv-nav nav ul li a {
+.serv-nav .the-second ul li a {
   font-family: "Bebas Neue", sans-serif;
   text-decoration: none;
   color: gray;
 }
-.serv-nav nav ul li a img {
+.serv-nav .the-second ul li a img {
   max-width: 50px;
   margin-right: 10px;
+}
+@media only screen and (max-width: 768px) {
+  .serv-nav .the-second {
+    display: none;
+  }
+}
+.serv-nav .boots-nav img {
+  width: 50px;
+  height: auto;
+}
+@media only screen and (max-width: 768px) {
+  .serv-nav .boots-nav {
+    padding: 10px;
+  }
+}
+@media only screen and (min-width: 981px) {
+  .serv-nav .boots-nav {
+    display: none;
+  }
 }
 
 .discover {
@@ -562,6 +581,7 @@
 }
 .discover div h1 {
   margin: 0px 15px;
+  text-align: center;
   font-family: "Lilita One", sans-serif;
 }
 .discover .modi-text {
@@ -634,7 +654,7 @@
 }
 
 .adventure {
-  padding: 10px;
+  padding: 20px 10px;
 }
 .adventure div {
   margin: 10px;
