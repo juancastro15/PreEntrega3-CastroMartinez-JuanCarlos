@@ -145,6 +145,13 @@
         height: 100%;
       }
     }
+
+    @media only screen and (max-width:480px) {
+      padding: 10px;
+      width: 100%; /* Cambiado a 100% para ocupar el ancho completo en dispositivos móviles */
+      max-width: 11.875em; /* Agregado un max-width para limitar el tamaño máximo */
+      height: auto;
+    }
   }
 
   @media only screen and (min-width:981px) {
