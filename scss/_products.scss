@@ -3,128 +3,157 @@
 }
 
 .produ-nvb {
-    background-color: #FFF8DC;
-    padding: 10px;
-    text-align: center;
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
+  background-color: #FFF8DC;
+  padding: 10px;
+  text-align: center;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
 
-    nav {
-        overflow-x: auto;
-        white-space: nowrap;
+  .the-third {
+    overflow-x: auto;
+    white-space: nowrap;
 
-        ul {
-            list-style-type: none;
-            padding: 0;
-            margin: 0;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
 
-            li {
-                display: inline-block;
-                margin: 0 1%;
+      li {
+        display: inline-block;
+        margin: 0 1%;
 
-                a {
-                    font-family: "Bebas Neue", sans-serif;
-                    text-decoration: none;
-                    color: gray;
+        a {
+          font-family: "Bebas Neue", sans-serif;
+          text-decoration: none;
+          color: gray;
 
-                    img {
-                        max-width: 50px;
-                        margin-right: 10px;
-                    }
-                }
-            }
+          img {
+            max-width: 50px;
+            margin-right: 10px;
+          }
         }
+      }
     }
+
+    @media only screen and (max-width: 768px) {
+      display: none;
+    }
+  }
+
+  .boots-nav {
+    font-family: "Bebas Neue", sans-serif;
+
+    img {
+      width: 50px;
+      height: auto;
+    }
+
+    @media only screen and (max-width:768px) {
+      padding: 10px;
+    }
+
+    @media only screen and (min-width:981px) {
+      display: none; 
+    }
+  }
 }
 
 .int-merch {
-    padding: 15px;
+  padding: 30px 20px;
 
-    .first-ti-me {
-        h1 {
-            font-family: "Lilita One", sans-serif;
-        }
+  .first-ti-me {
+    h1 {
+      font-family: "Lilita One", sans-serif;
     }
+  }
 
-    .text-comment {
-        margin-top: 15px;
-        p {
+  .text-comment {
+    margin-top: 25px;
+    p {
 
-        }
     }
+  }
 }
 
 
 .product-options {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Dos columnas */
-    grid-template-rows: repeat(3, 1fr);    /* Tres filas */
-    gap: 20px; /* Espacio entre las cards */
-    padding: 20px;
-    
-    .merch-card {
-      position: relative;
-      width: 11.875em;
-      height: 16.5em;
-      box-shadow: 0px 1px 13px rgba(0, 0, 0, 0.1);
-      cursor: pointer;
-      transition: all 120ms;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background: #fff;
-      padding: 0.5em;
-      padding-bottom: 3.4em;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr); 
+  gap: 20px;
+  padding: 20px 30px 50px;
   
-      .title {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 0.9em;
-        position: absolute;
-        left: 0.625em;
-        bottom: 1.875em;
-        font-weight: 400;
-        color: #000;
-      }
-  
-      .price {
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        font-size: 0.9em;
-        position: absolute;
-        left: 0.625em;
-        bottom: 0.625em;
-        color: #000;
-      }
-  
-      &:hover::after {
-        bottom: 0;
-        opacity: 1;
-      }
-  
-      &:active {
-        transform: scale(0.98);
-      }
-  
-      &:active::after {
-        content: "Added !";
-        height: 3.125em;
-      }
-  
-      .text {
-        max-width: 55px;
-      }
-  
-      .image {
-        place-items: center;
+  .merch-card {
+    position: relative;
+    width: 11.875em;
+    height: 16.5em;
+    box-shadow: 0px 1px 13px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 120ms;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    padding: 0.5em;
+    padding-bottom: 3.4em;
 
-        img {
-          width: 100%;
-          height: 100%;
-        }
+    .title {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 0.9em;
+      position: absolute;
+      left: 0.625em;
+      bottom: 1.875em;
+      font-weight: 400;
+      color: #000;
+    }
+
+    .price {
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-size: 0.9em;
+      position: absolute;
+      left: 0.625em;
+      bottom: 0.625em;
+      color: #000;
+    }
+
+    &:hover::after {
+      bottom: 0;
+      opacity: 1;
+    }
+
+    &:active {
+      transform: scale(0.98);
+    }
+
+    &:active::after {
+      content: "Added !";
+      height: 3.125em;
+    }
+
+    .text {
+      max-width: 55px;
+    }
+
+    .image {
+      place-items: center;
+
+      img {
+        width: 100%;
+        height: 100%;
       }
     }
+  }
+
+  @media only screen and (min-width:981px) {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    padding: 40px;
+    margin: 0px 100px;
+  }
 }
 
 
