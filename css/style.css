@@ -203,6 +203,13 @@
   max-width: 50px;
   margin-right: 10px;
 }
+.finder .th-last ul li a:hover {
+  color: black;
+}
+.finder .th-last ul li a:active {
+  color: black;
+  text-decoration: underline;
+}
 @media only screen and (max-width: 768px) {
   .finder .th-last {
     display: none;
@@ -322,6 +329,13 @@
 .navb .the-first ul li a img {
   max-width: 50px;
   margin-right: 10px;
+}
+.navb .the-first ul li a:hover {
+  color: black;
+}
+.navb .the-first ul li a:active {
+  color: black;
+  text-decoration: underline;
 }
 @media only screen and (max-width: 768px) {
   .navb .the-first {
@@ -470,6 +484,13 @@
 .produ-nvb .the-third ul li a img {
   max-width: 50px;
   margin-right: 10px;
+}
+.produ-nvb .the-third ul li a:hover {
+  color: black;
+}
+.produ-nvb .the-third ul li a:active {
+  color: black;
+  text-decoration: underline;
 }
 @media only screen and (max-width: 768px) {
   .produ-nvb .the-third {
@@ -633,6 +654,13 @@
 .serv-nav .the-second ul li a img {
   max-width: 50px;
   margin-right: 10px;
+}
+.serv-nav .the-second ul li a:hover {
+  color: black;
+}
+.serv-nav .the-second ul li a:active {
+  color: black;
+  text-decoration: underline;
 }
 @media only screen and (max-width: 768px) {
   .serv-nav .the-second {
