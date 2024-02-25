@@ -1,4 +1,3 @@
-@charset "UTF-8";
 .init {
   background-image: url(../Imagenes/mlaga-2.jpeg);
   background-repeat: no-repeat;
@@ -179,11 +178,11 @@
   border-top: 2px solid black;
   border-bottom: 2px solid black;
 }
-.finder nav {
+.finder .th-last {
   overflow-x: auto;
   white-space: nowrap;
 }
-.finder nav ul {
+.finder .th-last ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -191,22 +190,45 @@
   align-items: center;
   justify-content: space-between;
 }
-.finder nav ul li {
+.finder .th-last ul li {
   display: inline-block;
   margin: 0 1%;
 }
-.finder nav ul li a {
+.finder .th-last ul li a {
   font-family: "Bebas Neue", sans-serif;
   text-decoration: none;
   color: gray;
 }
-.finder nav ul li a img {
+.finder .th-last ul li a img {
   max-width: 50px;
   margin-right: 10px;
 }
+@media only screen and (max-width: 768px) {
+  .finder .th-last {
+    display: none;
+  }
+}
+.finder .boots-nav {
+  font-family: "Bebas Neue", sans-serif;
+}
+.finder .boots-nav img {
+  width: 50px;
+  height: auto;
+}
+@media only screen and (max-width: 768px) {
+  .finder .boots-nav {
+    padding: 10px;
+  }
+}
+@media only screen and (min-width: 981px) {
+  .finder .boots-nav {
+    display: none;
+  }
+}
 
 .ready {
-  padding: 10px;
+  padding: 25px 15px;
+  font-size: 20px;
 }
 .ready .big h1 {
   font-family: "Lilita One", sans-serif;
@@ -215,7 +237,8 @@
   margin: 5px;
 }
 .form-p .contact h2 {
-  margin-bottom: 20px;
+  margin: 20px;
+  font-family: "Lilita One", sans-serif;
 }
 .form-p .contact form fieldset {
   margin: 0;
@@ -224,7 +247,7 @@
   border-radius: 8px;
 }
 .form-p .contact form fieldset legend {
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 .form-p .contact form fieldset .form-group {
   margin-bottom: 20px;
@@ -363,6 +386,11 @@
   width: 70%;
   margin: 0 auto;
   display: block;
+}
+@media only screen and (max-width: 768px) {
+  .identity {
+    padding: 40px 30px;
+  }
 }
 @media only screen and (min-width: 981px) {
   .identity {
@@ -532,13 +560,20 @@
 }
 .product-options .merch-card .image img {
   width: 100%;
-  height: 100%;
+  height: auto;
+}
+@media only screen and (max-width: 480px) {
+  .product-options .merch-card .image {
+    /* tengo que corregir la img */
+  }
 }
 @media only screen and (max-width: 480px) {
   .product-options .merch-card {
-    padding: 10px;
-    width: 100%; /* Cambiado a 100% para ocupar el ancho completo en dispositivos móviles */
-    max-width: 11.875em; /* Agregado un max-width para limitar el tamaño máximo */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    padding: 5px;
+    width: 80%;
     height: auto;
   }
 }

@@ -3,14 +3,13 @@
 }
 
 .finder {
-    
     background-color: #FFF8DC;
     padding: 10px;
     text-align: center;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
 
-    nav {
+    .th-last {
         overflow-x: auto;
         white-space: nowrap;
 
@@ -38,12 +37,33 @@
                 }
             }
         }
+
+        @media only screen and (max-width: 768px) {
+            display: none;
+        }
     }
 
+    .boots-nav {
+        font-family: "Bebas Neue", sans-serif;
+    
+        img {
+          width: 50px;
+          height: auto;
+        }
+    
+        @media only screen and (max-width:768px) {
+          padding: 10px;
+        }
+    
+        @media only screen and (min-width:981px) {
+          display: none; 
+        }
+    }
 }
 
 .ready {
-    padding: 10px;
+    padding: 25px 15px;
+    font-size: 20px;
 
     .big {
 
@@ -63,7 +83,8 @@
 .form-p {
     .contact {
         h2 {
-            margin-bottom: 20px;
+            margin: 20px;
+            font-family: "Lilita One", sans-serif;
         }
 
         form {
@@ -74,7 +95,7 @@
                 border-radius: 8px;
 
                 legend {
-                    margin-bottom: 15px;
+                    margin-bottom: 25px;
                 }
 
                 .form-group {

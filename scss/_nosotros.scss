@@ -109,6 +109,10 @@
         }
     }
 
+    @media only screen and (max-width:768px) {
+        padding: 40px 30px;
+    }
+
     @media only screen and (min-width:981px) {
         padding: 30px;
     }
