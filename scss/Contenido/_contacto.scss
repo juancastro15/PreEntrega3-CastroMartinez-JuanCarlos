@@ -1,3 +1,5 @@
+@import '../bases/mapas';
+
 .end-bdy {
     background-color: #FFE4B5;
 }
@@ -147,10 +149,10 @@
     display: flex;
     justify-content: center;
     font-family: "Bebas Neue", sans-serif;
-    border-top: 2px solid white;
+    border-top: map-get($ft-user , border-standar);
     background-color: #bdb76b;
 
   div {
-    margin-top: 5px;
-  }
+        margin-top: 5px;
+    }
 }
