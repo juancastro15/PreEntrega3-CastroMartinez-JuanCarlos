@@ -584,15 +584,20 @@
   height: auto;
 }
 @media only screen and (max-width: 480px) {
+  .product-options .merch-card .contenedor-sp {
+    padding-top: 250px;
+  }
   .product-options .merch-card .image {
-    /* tengo que corregir la img */
+    place-items: center;
+  }
+  .product-options .merch-card .image img {
+    width: 100%;
+    height: auto;
   }
 }
 @media only screen and (max-width: 480px) {
   .product-options .merch-card {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    display: flex;
     padding: 5px;
     width: 80%;
     height: auto;
