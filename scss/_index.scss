@@ -49,13 +49,13 @@
             font-style: normal;
             margin: 5px;
 
-            @media only screen and (min-width: 981px) {
+            @media only screen and (min-width: 769px) {
                 font-size: 40px;
             }
         }
     }
 
-    @media only screen and (min-width: 981px) {
+    @media only screen and (min-width: 769px) {
         padding: 15px;
     }
 }
@@ -144,7 +144,7 @@
                         padding: 20px 5px;
                     }
 
-                    @media only screen and (min-width:981px) {
+                    @media only screen and (min-width:769px) {
                         padding: 27px;
                         margin: 9px;
                         font-size: 21px;
@@ -162,7 +162,7 @@
         }
     }
 
-    @media only screen and (min-width:981px) {
+    @media only screen and (min-width:769px) {
         padding: 86px;
         
     }
