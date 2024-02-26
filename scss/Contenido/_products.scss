@@ -1,5 +1,7 @@
+@import '../bases/extends';
+
 .merch-bdy {
-    background-color: #FFE4B5;
+  background-color: #FFE4B5;
 }
 
 .produ-nvb {
@@ -26,9 +28,7 @@
         margin: 0 1%;
 
         a {
-          font-family: "Bebas Neue", sans-serif;
-          text-decoration: none;
-          color: gray;
+          @extend %botones;
 
           img {
             max-width: 50px;

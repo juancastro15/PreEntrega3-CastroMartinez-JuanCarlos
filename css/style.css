@@ -167,6 +167,12 @@
   color: black;
 }
 
+.serv-nav .the-second ul li a, .produ-nvb .the-third ul li a, .navb .the-first ul li a, .finder .th-last ul li a {
+  font-family: "Bebas Neue", sans-serif;
+  text-decoration: none;
+  color: gray;
+}
+
 .end-bdy {
   background-color: #FFE4B5;
 }
@@ -193,11 +199,6 @@
 .finder .th-last ul li {
   display: inline-block;
   margin: 0 1%;
-}
-.finder .th-last ul li a {
-  font-family: "Bebas Neue", sans-serif;
-  text-decoration: none;
-  color: gray;
 }
 .finder .th-last ul li a img {
   max-width: 50px;
@@ -294,6 +295,12 @@
   margin-top: 5px;
 }
 
+.serv-nav .the-second ul li a, .produ-nvb .the-third ul li a, .navb .the-first ul li a, .finder .th-last ul li a {
+  font-family: "Bebas Neue", sans-serif;
+  text-decoration: none;
+  color: gray;
+}
+
 .noso-bdy {
   background-color: #FFE4B5;
 }
@@ -320,11 +327,6 @@
 .navb .the-first ul li {
   display: inline-block;
   margin: 0 1%;
-}
-.navb .the-first ul li a {
-  font-family: "Bebas Neue", sans-serif;
-  text-decoration: none;
-  color: gray;
 }
 .navb .the-first ul li a img {
   max-width: 50px;
@@ -449,6 +451,12 @@
   margin-top: 5px;
 }
 
+.serv-nav .the-second ul li a, .produ-nvb .the-third ul li a, .finder .th-last ul li a, .navb .the-first ul li a {
+  font-family: "Bebas Neue", sans-serif;
+  text-decoration: none;
+  color: gray;
+}
+
 .merch-bdy {
   background-color: #FFE4B5;
 }
@@ -475,11 +483,6 @@
 .produ-nvb .the-third ul li {
   display: inline-block;
   margin: 0 1%;
-}
-.produ-nvb .the-third ul li a {
-  font-family: "Bebas Neue", sans-serif;
-  text-decoration: none;
-  color: gray;
 }
 .produ-nvb .the-third ul li a img {
   max-width: 50px;
@@ -624,6 +627,12 @@
   margin-top: 5px;
 }
 
+.serv-nav .the-second ul li a, .finder .th-last ul li a, .navb .the-first ul li a, .produ-nvb .the-third ul li a {
+  font-family: "Bebas Neue", sans-serif;
+  text-decoration: none;
+  color: gray;
+}
+
 .ser-bdy {
   background-color: #FFE4B5;
 }
@@ -650,11 +659,6 @@
 .serv-nav .the-second ul li {
   display: inline-block;
   margin: 0 1%;
-}
-.serv-nav .the-second ul li a {
-  font-family: "Bebas Neue", sans-serif;
-  text-decoration: none;
-  color: gray;
 }
 .serv-nav .the-second ul li a img {
   max-width: 50px;

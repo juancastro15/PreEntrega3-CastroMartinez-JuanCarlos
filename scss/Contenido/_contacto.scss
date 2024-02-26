@@ -1,4 +1,5 @@
 @import '../bases/mapas';
+@import '../bases/extends';
 
 .end-bdy {
     background-color: #FFE4B5;
@@ -28,9 +29,7 @@
                 margin: 0 1%;
 
                 a {
-                    font-family: "Bebas Neue", sans-serif;
-                    text-decoration: none;
-                    color: gray;
+                    @extend %botones;
 
                     img {
                         max-width: 50px;
