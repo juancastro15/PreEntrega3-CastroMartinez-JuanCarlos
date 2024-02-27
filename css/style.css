@@ -167,6 +167,8 @@
   color: black;
 }
 
+/* fuente predeterminada para detalles de footer */
+/* Extendes para mis botonoes del nav */
 .serv-nav .the-second ul li a, .produ-nvb .the-third ul li a, .navb .the-first ul li a, .finder .th-last ul li a {
   font-family: "Bebas Neue", sans-serif;
   text-decoration: none;
@@ -295,6 +297,7 @@
   margin-top: 5px;
 }
 
+/* Extendes para mis botonoes del nav */
 .serv-nav .the-second ul li a, .produ-nvb .the-third ul li a, .navb .the-first ul li a, .finder .th-last ul li a {
   font-family: "Bebas Neue", sans-serif;
   text-decoration: none;
@@ -451,6 +454,7 @@
   margin-top: 5px;
 }
 
+/* Extendes para mis botonoes del nav */
 .serv-nav .the-second ul li a, .produ-nvb .the-third ul li a, .finder .th-last ul li a, .navb .the-first ul li a {
   font-family: "Bebas Neue", sans-serif;
   text-decoration: none;
@@ -627,12 +631,14 @@
   margin-top: 5px;
 }
 
+/* Extendes para mis botonoes del nav */
 .serv-nav .the-second ul li a, .finder .th-last ul li a, .navb .the-first ul li a, .produ-nvb .the-third ul li a {
   font-family: "Bebas Neue", sans-serif;
   text-decoration: none;
   color: gray;
 }
 
+/* un mixin para mis footers */
 .ser-bdy {
   background-color: #FFE4B5;
 }

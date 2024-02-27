@@ -32,6 +32,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&display=swap" rel="stylesheet">
     <!--Google Fonts 2-->
 
+    <!-- Incluyo AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Incluyo AOS CSS -->
+
+    <!-- Incluye AOS JavaScript -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Incluye AOS JavaScript -->
+
     <!--Open Graph-->
     <meta property="og:image" content="https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcSq1bYZa-67pePWCS-dFano2GrVbra1Nrn69RIuWAm7mFj7mzBxHhVq4uNTgThlppHpGGJIydiy4Yb0DisWs1bErHlpPbTyspU0OXOBTA">
     <meta property="og:url" content="https://juancastro15.github.io/PreEntrega3-CastroMartinez-JuanCarlos/index.html">
@@ -49,13 +57,13 @@
 
     <!--Inicio de Nuestro Header-->
     <header class="first-logo">
-        <h1>CONOCE <img src="Imagenes/logo-malaga.png" alt="logo de nuestra pagina"> MALAGA</h1>
+        <h1>CONOCE <img src="Imagenes/logo-malaga.png" alt="logo de nuestra pagina" data-aos="fade-down"> MALAGA</h1>
     </header>
     <!--fin del Header-->
 
     <!--Inicio de nuestra seccion introductoria-->
     <section class="introduction">
-        <div>
+        <div data-aos="fade-up">
             <p>En este lugar la historia, la cultura y la modernidad se entrelazan. Te invitamos a explorar sus tesoros históricos, vibrantes festivales, exquisita gastronomía y mucho más. Sumérgete en nuestra guía interactiva y descubre todos los encantos que esta ciudad tiene para ofrecer. Todo lo que necesitas para disfrutar de una experiencia inolvidable en La Costa del Sol.</p>
         </div>
     </section>
@@ -65,10 +73,10 @@
     <main>
         <nav class="button-decoration">
             <ul class="button-grid">
-                <li class="special-button"><a href="Paginas/nosotros.html" class="cssbuttons-io">QUIENES SOMOS</a></li>
-                <li class="special-button"><a href="Paginas/servicios.html" class="cssbuttons-io">SERVICIOS</a></li>
-                <li class="special-button"><a href="Paginas/products.html" class="cssbuttons-io">PRODUCTOS</a></li>
-                <li class="special-button"><a href="Paginas/contacto.html" class="cssbuttons-io">CONTACTO</a></li>
+                <li class="special-button" data-aos="fade-right"><a href="Paginas/nosotros.html" class="cssbuttons-io">QUIENES SOMOS</a></li>
+                <li class="special-button" data-aos="fade-left"><a href="Paginas/servicios.html" class="cssbuttons-io">SERVICIOS</a></li>
+                <li class="special-button" data-aos="fade-right"><a href="Paginas/products.html" class="cssbuttons-io">PRODUCTOS</a></li>
+                <li class="special-button" data-aos="fade-left"><a href="Paginas/contacto.html" class="cssbuttons-io">CONTACTO</a></li>
             </ul>
         </nav>
     </main>
@@ -82,5 +90,10 @@
     </footer>
     <!--Fin de nuestro Footer-->
     
+    <!--Incluyo AOS para las animaciones-->
+    <script>
+        AOS.init();
+    </script>
+    <!--Incluyo AOS para las animaciones-->
 </body>
 </html>

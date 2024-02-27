@@ -1,4 +1,5 @@
 @import '../bases/extends';
+@import'../bases/mixins';
 
 .ser-bdy {
     background-color: #FFE4B5;
@@ -186,8 +187,7 @@
     display: flex;
     justify-content: center;
     font-family: "Bebas Neue", sans-serif;
-    border-top: 2px solid white;
-    background-color: #bdb76b;
+    @include resolutive;
 
     div {
         margin-top: 5px;
