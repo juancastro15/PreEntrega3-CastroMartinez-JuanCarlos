@@ -1,3 +1,16 @@
+/* Extendes para mis botonoes del nav */
+.serv-nav .the-second ul li a, .produ-nvb .the-third ul li a, .navb .the-first ul li a, .finder .th-last ul li a {
+  font-family: "Bebas Neue", sans-serif;
+  text-decoration: none;
+  color: gray;
+}
+
+.carro-fot h3, .carro-fot h2 {
+  color: #ffffe0;
+  font-family: "Lobster", sans-serif;
+  font-size: 40px;
+}
+
 .init {
   background-image: url(../Imagenes/mlaga-2.jpeg);
   background-repeat: no-repeat;
@@ -153,6 +166,36 @@
   }
 }
 
+.carro-fot {
+  padding: 5px 15px 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.carro-fot .bk-color {
+  background: rgba(255, 255, 255, 0.609);
+  margin: 25px 0px;
+}
+.carro-fot .bk-color #carouselExampleFade {
+  margin: 20px 10px;
+}
+.carro-fot .bk-color #carouselExampleFade .carousel-inner img {
+  width: 100%;
+  height: auto;
+}
+@media only screen and (min-width: 769px) {
+  .carro-fot .bk-color #carouselExampleFade {
+    width: 700px;
+    height: auto;
+  }
+}
+@media only screen and (min-width: 769px) {
+  .carro-fot {
+    padding-bottom: 40px;
+  }
+}
+
 .autor-end {
   display: flex;
   justify-content: center;
@@ -173,6 +216,12 @@
   font-family: "Bebas Neue", sans-serif;
   text-decoration: none;
   color: gray;
+}
+
+.carro-fot h2, .carro-fot h3 {
+  color: #ffffe0;
+  font-family: "Lobster", sans-serif;
+  font-size: 40px;
 }
 
 .end-bdy {
@@ -302,6 +351,12 @@
   font-family: "Bebas Neue", sans-serif;
   text-decoration: none;
   color: gray;
+}
+
+.carro-fot h2, .carro-fot h3 {
+  color: #ffffe0;
+  font-family: "Lobster", sans-serif;
+  font-size: 40px;
 }
 
 .noso-bdy {
@@ -459,6 +514,12 @@
   font-family: "Bebas Neue", sans-serif;
   text-decoration: none;
   color: gray;
+}
+
+.carro-fot h2, .carro-fot h3 {
+  color: #ffffe0;
+  font-family: "Lobster", sans-serif;
+  font-size: 40px;
 }
 
 .merch-bdy {
@@ -636,6 +697,12 @@
   font-family: "Bebas Neue", sans-serif;
   text-decoration: none;
   color: gray;
+}
+
+.carro-fot h2, .carro-fot h3 {
+  color: #ffffe0;
+  font-family: "Lobster", sans-serif;
+  font-size: 40px;
 }
 
 /* un mixin para mis footers */
