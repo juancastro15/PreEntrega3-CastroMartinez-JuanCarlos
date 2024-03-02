@@ -1,5 +1,6 @@
 @import '../bases/extends';
 @import'../bases/mixins';
+@import '../bases/variables';
 
 .ser-bdy {
     @extend %pag-bk
@@ -81,6 +82,7 @@
             margin: 0px 15px;
             text-align: center;
             font-family: "Lilita One", sans-serif;
+            color: $color-titulos;
         }
     }
 
@@ -108,6 +110,7 @@
         h2 {
             font-family: "Lilita One", sans-serif;
             font-size: 3em;
+            color: $color-titulos;
         }
     }
 
@@ -177,7 +180,7 @@
         margin: 10px;
         h3{
             font-family: "Lilita One", sans-serif;
-
+            color: $color-titulos;
         }
     }
 }

@@ -1,5 +1,6 @@
 @import '../bases/mapas';
 @import '../bases/extends';
+@import '../bases/variables';
 
 .end-bdy {
     @extend %pag-bk
@@ -79,6 +80,7 @@
 
         h1 {
             font-family: "Lilita One", sans-serif;
+            color: $color-titulos;
         }
     }
 
@@ -95,6 +97,7 @@
         h2 {
             margin: 20px;
             font-family: "Lilita One", sans-serif;
+            color: $color-titulos;
         }
 
         form {

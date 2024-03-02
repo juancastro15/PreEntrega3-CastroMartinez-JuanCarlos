@@ -236,6 +236,7 @@
   background-size: cover;
 }
 
+/* una variable para los h1,2,3,etc*/
 .finder {
   background-color: #FFF8DC;
   padding: 10px;
@@ -299,6 +300,7 @@
 }
 .ready .big h1 {
   font-family: "Lilita One", sans-serif;
+  color: #0a0a0a;
 }
 .ready .rb2 {
   margin: 5px;
@@ -306,6 +308,7 @@
 .form-p .contact h2 {
   margin: 20px;
   font-family: "Lilita One", sans-serif;
+  color: #0a0a0a;
 }
 .form-p .contact form fieldset {
   margin: 0;
@@ -371,6 +374,7 @@
   background-size: cover;
 }
 
+/* una variable para los h1,2,3,etc*/
 .navb {
   background-color: #FFF8DC;
   padding: 10px;
@@ -441,6 +445,7 @@
   text-align: center;
   font-family: "Lilita One", sans-serif;
   font-size: 2em;
+  color: #0a0a0a;
 }
 @media only screen and (min-width: 769px) {
   .identity .our-story h1 {
@@ -489,6 +494,7 @@
 }
 .adj-first .af-next h2 {
   font-family: "Lilita One", sans-serif;
+  color: #0a0a0a;
 }
 .adj-first .soc-net {
   padding-top: 15px;
@@ -536,6 +542,7 @@
   background-size: cover;
 }
 
+/* una variable para los h1,2,3,etc*/
 .produ-nvb {
   background-color: #FFF8DC;
   padding: 10px;
@@ -598,6 +605,7 @@
 }
 .int-merch .first-ti-me h1 {
   font-family: "Lilita One", sans-serif;
+  color: #0a0a0a;
 }
 .int-merch .text-comment {
   margin-top: 25px;
@@ -697,6 +705,7 @@
 }
 .coming h2 {
   font-family: "Lilita One", sans-serif;
+  color: #0a0a0a;
 }
 .coming div {
   margin-top: 25px;
@@ -732,6 +741,7 @@
 }
 
 /* un mixin para mis footers */
+/* una variable para los h1,2,3,etc*/
 .serv-nav {
   background-color: #FFF8DC;
   padding: 10px;
@@ -796,6 +806,7 @@
   margin: 0px 15px;
   text-align: center;
   font-family: "Lilita One", sans-serif;
+  color: #0a0a0a;
 }
 .discover .modi-text {
   padding: 5px;
@@ -817,6 +828,7 @@
 .ab-crd div h2 {
   font-family: "Lilita One", sans-serif;
   font-size: 3em;
+  color: #0a0a0a;
 }
 .ab-crd .cards {
   display: flex;
@@ -874,6 +886,7 @@
 }
 .adventure div h3 {
   font-family: "Lilita One", sans-serif;
+  color: #0a0a0a;
 }
 
 .foot-ser-aut {

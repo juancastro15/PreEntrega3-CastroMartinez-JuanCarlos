@@ -1,4 +1,5 @@
 @import '../bases/extends';
+@import '../bases/variables';
 
 .noso-bdy {
     @extend %pag-bk
@@ -85,6 +86,7 @@
             text-align: center;
             font-family: "Lilita One", sans-serif;
             font-size: 2em;
+            color: $color-titulos;
 
             @media only screen and (min-width:769px) {
                 font-size: 4em; 
@@ -136,6 +138,7 @@
 
         h2 {
             font-family: "Lilita One", sans-serif;
+            color: $color-titulos;
         }
     }
 
