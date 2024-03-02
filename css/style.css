@@ -666,9 +666,10 @@
 @media only screen and (max-width: 480px) {
   .product-options .merch-card {
     display: flex;
+    align-items: initial;
     padding: 5px;
     width: 80%;
-    height: auto;
+    height: 80%;
   }
 }
 @media only screen and (min-width: 769px) {
