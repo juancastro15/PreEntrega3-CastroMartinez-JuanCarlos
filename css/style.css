@@ -11,6 +11,12 @@
   font-size: 40px;
 }
 
+.ser-bdy, .merch-bdy, .noso-bdy, .end-bdy {
+  background-image: url(../../Imagenes/page-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .init {
   background-image: url(../Imagenes/mlaga-2.jpeg);
   background-repeat: no-repeat;
@@ -224,8 +230,10 @@
   font-size: 40px;
 }
 
-.end-bdy {
-  background-color: #FFE4B5;
+.ser-bdy, .merch-bdy, .noso-bdy, .end-bdy {
+  background-image: url(../../Imagenes/page-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .finder {
@@ -302,8 +310,6 @@
 .form-p .contact form fieldset {
   margin: 0;
   padding: 20px;
-  border: 1px solid #ddd;
-  border-radius: 8px;
 }
 .form-p .contact form fieldset legend {
   margin-bottom: 25px;
@@ -359,8 +365,10 @@
   font-size: 40px;
 }
 
-.noso-bdy {
-  background-color: #FFE4B5;
+.ser-bdy, .merch-bdy, .noso-bdy, .end-bdy {
+  background-image: url(../../Imagenes/page-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .navb {
@@ -522,8 +530,10 @@
   font-size: 40px;
 }
 
-.merch-bdy {
-  background-color: #FFE4B5;
+.ser-bdy, .merch-bdy, .end-bdy, .noso-bdy {
+  background-image: url(../../Imagenes/page-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .produ-nvb {
@@ -715,11 +725,13 @@
   font-size: 40px;
 }
 
-/* un mixin para mis footers */
-.ser-bdy {
-  background-color: #FFE4B5;
+.ser-bdy, .end-bdy, .noso-bdy, .merch-bdy {
+  background-image: url(../../Imagenes/page-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
+/* un mixin para mis footers */
 .serv-nav {
   background-color: #FFF8DC;
   padding: 10px;

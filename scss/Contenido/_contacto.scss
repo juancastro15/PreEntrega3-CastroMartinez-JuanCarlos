@@ -2,7 +2,7 @@
 @import '../bases/extends';
 
 .end-bdy {
-    background-color: #FFE4B5;
+    @extend %pag-bk
 }
 
 .finder {
@@ -101,8 +101,6 @@
             fieldset {
                 margin: 0;
                 padding: 20px;
-                border: 1px solid #ddd;
-                border-radius: 8px;
 
                 legend {
                     margin-bottom: 25px;

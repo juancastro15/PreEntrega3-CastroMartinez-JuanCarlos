@@ -2,8 +2,7 @@
 @import'../bases/mixins';
 
 .ser-bdy {
-    background-color: #FFE4B5;
-
+    @extend %pag-bk
 }
 
 .serv-nav {
