@@ -681,6 +681,15 @@
   }
 }
 
+.coming {
+  padding: 20px;
+}
+.coming h2 {
+  font-family: "Lilita One", sans-serif;
+}
+.coming div {
+  margin-top: 25px;
+}
 .buy-foot-aut {
   display: flex;
   justify-content: center;
