@@ -6,7 +6,7 @@
 }
 
 .carro-fot h3, .carro-fot h2 {
-  color: #284b63;
+  color: #ffffe0;
   font-family: "Lobster", sans-serif;
   font-size: 40px;
 }
@@ -24,7 +24,9 @@
 /* para los background */
 /* fuente predeterminada para detalles de footer */
 .init {
-  background-color: #fff5ee;
+  background-image: url(../../Imagenes/mlaga-2.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .first-logo {
@@ -60,11 +62,6 @@
 
 .introduction {
   padding: 10px;
-  background-image: url(../../Imagenes/mlaga-2.jpeg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  border-top: 4px solid #3c6e71;
-  border-bottom: 4px solid #3c6e71;
 }
 .introduction div p {
   text-align: center;
@@ -85,10 +82,10 @@
   }
 }
 
-.button-decoration {
-  padding: 65px;
+.nav-main .button-decoration {
+  padding: 55px;
 }
-.button-decoration ul {
+.nav-main .button-decoration ul {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -96,10 +93,10 @@
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, auto);
 }
-.button-decoration ul li {
+.nav-main .button-decoration ul li {
   position: relative;
 }
-.button-decoration ul li a {
+.nav-main .button-decoration ul li a {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -111,10 +108,10 @@
   background-color: #f5f5f5;
   transition: background-color 0.3s;
 }
-.button-decoration ul li a:hover {
+.nav-main .button-decoration ul li a:hover {
   background-color: #ddd;
 }
-.button-decoration ul li a.cssbuttons-io {
+.nav-main .button-decoration ul li a.cssbuttons-io {
   position: relative;
   font-family: inherit;
   font-weight: 500;
@@ -123,24 +120,24 @@
   border-radius: 0.8em;
   cursor: pointer;
   border: none;
-  background: linear-gradient(to right, #3c6e71, #284b63);
+  background: linear-gradient(to right, #62b6cb, #3c6e71, #001f54);
   color: ghostwhite;
   overflow: hidden;
   display: flex;
   align-items: center;
 }
-.button-decoration ul li a.cssbuttons-io svg {
+.nav-main .button-decoration ul li a.cssbuttons-io svg {
   width: 1.2em;
   height: 1.2em;
   margin-right: 0.5em;
 }
-.button-decoration ul li a.cssbuttons-io span {
+.nav-main .button-decoration ul li a.cssbuttons-io span {
   position: relative;
   z-index: 10;
   transition: color 0.4s;
   padding: 0.8em 1.2em 0.8em 1.05em;
 }
-.button-decoration ul li a.cssbuttons-io::before, .button-decoration ul li a.cssbuttons-io::after {
+.nav-main .button-decoration ul li a.cssbuttons-io::before, .nav-main .button-decoration ul li a.cssbuttons-io::after {
   content: "";
   position: absolute;
   top: 0;
@@ -149,25 +146,25 @@
   height: 100%;
   z-index: 0;
 }
-.button-decoration ul li a.cssbuttons-io:hover::before {
+.nav-main .button-decoration ul li a.cssbuttons-io:hover::before {
   transform: translate3d(100%, 0, 0);
 }
-.button-decoration ul li a.cssbuttons-io:active {
+.nav-main .button-decoration ul li a.cssbuttons-io:active {
   transform: scale(0.95);
 }
 @media only screen and (max-width: 768px) {
-  .button-decoration ul li a.cssbuttons-io {
+  .nav-main .button-decoration ul li a.cssbuttons-io {
     font-size: 10px;
     padding: 20px 5px;
   }
 }
 @media only screen and (min-width: 769px) {
-  .button-decoration ul li a.cssbuttons-io {
+  .nav-main .button-decoration ul li a.cssbuttons-io {
     padding: 27px;
     margin: 9px;
     font-size: 21px;
   }
-  .button-decoration ul li a.cssbuttons-io::before {
+  .nav-main .button-decoration ul li a.cssbuttons-io::before {
     background: #000;
     width: 120%;
     left: -10%;
@@ -176,7 +173,7 @@
   }
 }
 @media only screen and (min-width: 769px) {
-  .button-decoration {
+  .nav-main .button-decoration {
     padding: 86px;
   }
 }
@@ -193,7 +190,7 @@
   margin: 25px 0px;
 }
 .carro-fot .bk-color #carouselExampleFade {
-  margin: 20px 10px;
+  margin: 15px;
 }
 .carro-fot .bk-color #carouselExampleFade .carousel-inner img {
   width: 100%;
@@ -215,14 +212,14 @@
   display: flex;
   justify-content: center;
   font-family: "Bebas Neue", sans-serif;
-  border-top: 4px solid #284b63;
-  background-color: #ffffff;
+  border-top: 6px solid #d9d9d9;
+  background-color: #284b63;
 }
 .autor-end div {
   margin-top: 5px;
 }
 .autor-end div p {
-  color: black;
+  color: #ffffff;
 }
 
 /* Extendes para mis botonoes del nav */
@@ -233,7 +230,7 @@
 }
 
 .carro-fot h2, .carro-fot h3 {
-  color: #284b63;
+  color: #ffffe0;
   font-family: "Lobster", sans-serif;
   font-size: 40px;
 }
@@ -358,11 +355,14 @@
   display: flex;
   justify-content: center;
   font-family: "Bebas Neue", sans-serif;
-  border-top: 4px solid #284b63;
-  background-color: #ffffff;
+  border-top: 6px solid #d9d9d9;
+  background-color: #284b63;
 }
 .limit-ft div {
   margin-top: 5px;
+}
+.limit-ft div p {
+  color: #ffffff;
 }
 
 /* Extendes para mis botonoes del nav */
@@ -373,7 +373,7 @@
 }
 
 .carro-fot h2, .carro-fot h3 {
-  color: #284b63;
+  color: #ffffe0;
   font-family: "Lobster", sans-serif;
   font-size: 40px;
 }
@@ -528,11 +528,14 @@
   display: flex;
   justify-content: center;
   font-family: "Bebas Neue", sans-serif;
-  border-top: 4px solid #284b63;
-  background-color: #ffffff;
+  border-top: 6px solid #d9d9d9;
+  background-color: #284b63;
 }
 .foot-nos-aut div {
   margin-top: 5px;
+}
+.foot-nos-aut div p {
+  color: #ffffff;
 }
 
 /* Extendes para mis botonoes del nav */
@@ -543,7 +546,7 @@
 }
 
 .carro-fot h2, .carro-fot h3 {
-  color: #284b63;
+  color: #ffffe0;
   font-family: "Lobster", sans-serif;
   font-size: 40px;
 }
@@ -728,11 +731,14 @@
   display: flex;
   justify-content: center;
   font-family: "Bebas Neue", sans-serif;
-  border-top: 4px solid #284b63;
-  background-color: #ffffff;
+  border-top: 6px solid #d9d9d9;
+  background-color: #284b63;
 }
 .buy-foot-aut div {
   margin-top: 5px;
+}
+.buy-foot-aut div p {
+  color: #ffffff;
 }
 
 /* Extendes para mis botonoes del nav */
@@ -743,7 +749,7 @@
 }
 
 .carro-fot h2, .carro-fot h3 {
-  color: #284b63;
+  color: #ffffe0;
   font-family: "Lobster", sans-serif;
   font-size: 40px;
 }
@@ -908,11 +914,14 @@
   display: flex;
   justify-content: center;
   font-family: "Bebas Neue", sans-serif;
-  border-top: 4px solid #284b63;
-  background-color: #ffffff;
+  border-top: 6px solid #d9d9d9;
+  background-color: #284b63;
 }
 .foot-ser-aut div {
   margin-top: 5px;
+}
+.foot-ser-aut div p {
+  color: #ffffff;
 }
 
 /*# sourceMappingURL=style.css.map */
