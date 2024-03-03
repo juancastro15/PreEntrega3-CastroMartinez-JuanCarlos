@@ -1,17 +1,14 @@
-@import '../bases/mapas';
 @import '../bases/extends';
+@import'../bases/mixins';
 @import '../bases/variables';
+@import '../bases/mapas';
 
 .end-bdy {
-    @extend %pag-bk
+    background-color: $background;
 }
 
 .finder {
-    background-color: #FFF8DC;
-    padding: 10px;
-    text-align: center;
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
+    @extend %nav-ext;
 
     .th-last {
         overflow-x: auto;
@@ -149,8 +146,7 @@
     display: flex;
     justify-content: center;
     font-family: "Bebas Neue", sans-serif;
-    border-top: map-get($ft-user , border-standar);
-    background-color: #bdb76b;
+    @include resolutive;
 
   div {
         margin-top: 5px;

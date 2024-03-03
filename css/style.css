@@ -2,25 +2,29 @@
 .serv-nav .the-second ul li a, .produ-nvb .the-third ul li a, .navb .the-first ul li a, .finder .th-last ul li a {
   font-family: "Bebas Neue", sans-serif;
   text-decoration: none;
-  color: gray;
+  color: #3c6e71;
 }
 
 .carro-fot h3, .carro-fot h2 {
-  color: #ffffe0;
+  color: #284b63;
   font-family: "Lobster", sans-serif;
   font-size: 40px;
 }
 
-.ser-bdy, .merch-bdy, .noso-bdy, .end-bdy {
-  background-image: url(../../Imagenes/page-background.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+.serv-nav, .produ-nvb, .navb, .finder {
+  background-color: #ffffff;
+  padding: 10px;
+  text-align: center;
+  border-top: 4px solid #3c6e71;
+  border-bottom: 4px solid #3c6e71;
 }
 
+/* un mixin para mis footers */
+/* una variable para los h1,2,3,etc*/
+/* para los background */
+/* fuente predeterminada para detalles de footer */
 .init {
-  background-image: url(../Imagenes/mlaga-2.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #fff5ee;
 }
 
 .first-logo {
@@ -56,6 +60,11 @@
 
 .introduction {
   padding: 10px;
+  background-image: url(../../Imagenes/mlaga-2.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top: 4px solid #3c6e71;
+  border-bottom: 4px solid #3c6e71;
 }
 .introduction div p {
   text-align: center;
@@ -114,7 +123,7 @@
   border-radius: 0.8em;
   cursor: pointer;
   border: none;
-  background: linear-gradient(to right, #8e2de2, #4a00e0);
+  background: linear-gradient(to right, #3c6e71, #284b63);
   color: ghostwhite;
   overflow: hidden;
   display: flex;
@@ -206,8 +215,8 @@
   display: flex;
   justify-content: center;
   font-family: "Bebas Neue", sans-serif;
-  border-top: 2px solid white;
-  background-color: #bdb76b;
+  border-top: 4px solid #284b63;
+  background-color: #ffffff;
 }
 .autor-end div {
   margin-top: 5px;
@@ -216,34 +225,35 @@
   color: black;
 }
 
-/* fuente predeterminada para detalles de footer */
 /* Extendes para mis botonoes del nav */
 .serv-nav .the-second ul li a, .produ-nvb .the-third ul li a, .navb .the-first ul li a, .finder .th-last ul li a {
   font-family: "Bebas Neue", sans-serif;
   text-decoration: none;
-  color: gray;
+  color: #3c6e71;
 }
 
 .carro-fot h2, .carro-fot h3 {
-  color: #ffffe0;
+  color: #284b63;
   font-family: "Lobster", sans-serif;
   font-size: 40px;
 }
 
-.ser-bdy, .merch-bdy, .noso-bdy, .end-bdy {
-  background-image: url(../../Imagenes/page-background.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-/* una variable para los h1,2,3,etc*/
-.finder {
-  background-color: #FFF8DC;
+.serv-nav, .produ-nvb, .navb, .finder {
+  background-color: #ffffff;
   padding: 10px;
   text-align: center;
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
+  border-top: 4px solid #3c6e71;
+  border-bottom: 4px solid #3c6e71;
 }
+
+/* un mixin para mis footers */
+/* una variable para los h1,2,3,etc*/
+/* para los background */
+/* fuente predeterminada para detalles de footer */
+.end-bdy {
+  background-color: #fff5ee;
+}
+
 .finder .th-last {
   overflow-x: auto;
   white-space: nowrap;
@@ -300,7 +310,7 @@
 }
 .ready .big h1 {
   font-family: "Lilita One", sans-serif;
-  color: #0a0a0a;
+  color: #284b63;
 }
 .ready .rb2 {
   margin: 5px;
@@ -308,7 +318,7 @@
 .form-p .contact h2 {
   margin: 20px;
   font-family: "Lilita One", sans-serif;
-  color: #0a0a0a;
+  color: #284b63;
 }
 .form-p .contact form fieldset {
   margin: 0;
@@ -348,8 +358,8 @@
   display: flex;
   justify-content: center;
   font-family: "Bebas Neue", sans-serif;
-  border-top: 2px solid white;
-  background-color: #bdb76b;
+  border-top: 4px solid #284b63;
+  background-color: #ffffff;
 }
 .limit-ft div {
   margin-top: 5px;
@@ -359,29 +369,31 @@
 .serv-nav .the-second ul li a, .produ-nvb .the-third ul li a, .navb .the-first ul li a, .finder .th-last ul li a {
   font-family: "Bebas Neue", sans-serif;
   text-decoration: none;
-  color: gray;
+  color: #3c6e71;
 }
 
 .carro-fot h2, .carro-fot h3 {
-  color: #ffffe0;
+  color: #284b63;
   font-family: "Lobster", sans-serif;
   font-size: 40px;
 }
 
-.ser-bdy, .merch-bdy, .noso-bdy, .end-bdy {
-  background-image: url(../../Imagenes/page-background.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-/* una variable para los h1,2,3,etc*/
-.navb {
-  background-color: #FFF8DC;
+.serv-nav, .produ-nvb, .navb, .finder {
+  background-color: #ffffff;
   padding: 10px;
   text-align: center;
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
+  border-top: 4px solid #3c6e71;
+  border-bottom: 4px solid #3c6e71;
 }
+
+/* un mixin para mis footers */
+/* una variable para los h1,2,3,etc*/
+/* para los background */
+/* fuente predeterminada para detalles de footer */
+.noso-bdy {
+  background-color: #fff5ee;
+}
+
 .navb .the-first {
   overflow-x: auto;
   white-space: nowrap;
@@ -445,7 +457,7 @@
   text-align: center;
   font-family: "Lilita One", sans-serif;
   font-size: 2em;
-  color: #0a0a0a;
+  color: #284b63;
 }
 @media only screen and (min-width: 769px) {
   .identity .our-story h1 {
@@ -494,7 +506,7 @@
 }
 .adj-first .af-next h2 {
   font-family: "Lilita One", sans-serif;
-  color: #0a0a0a;
+  color: #284b63;
 }
 .adj-first .soc-net {
   padding-top: 15px;
@@ -516,8 +528,8 @@
   display: flex;
   justify-content: center;
   font-family: "Bebas Neue", sans-serif;
-  border-top: 2px solid white;
-  background-color: #bdb76b;
+  border-top: 4px solid #284b63;
+  background-color: #ffffff;
 }
 .foot-nos-aut div {
   margin-top: 5px;
@@ -527,29 +539,31 @@
 .serv-nav .the-second ul li a, .produ-nvb .the-third ul li a, .finder .th-last ul li a, .navb .the-first ul li a {
   font-family: "Bebas Neue", sans-serif;
   text-decoration: none;
-  color: gray;
+  color: #3c6e71;
 }
 
 .carro-fot h2, .carro-fot h3 {
-  color: #ffffe0;
+  color: #284b63;
   font-family: "Lobster", sans-serif;
   font-size: 40px;
 }
 
-.ser-bdy, .merch-bdy, .end-bdy, .noso-bdy {
-  background-image: url(../../Imagenes/page-background.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-/* una variable para los h1,2,3,etc*/
-.produ-nvb {
-  background-color: #FFF8DC;
+.serv-nav, .produ-nvb, .finder, .navb {
+  background-color: #ffffff;
   padding: 10px;
   text-align: center;
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
+  border-top: 4px solid #3c6e71;
+  border-bottom: 4px solid #3c6e71;
 }
+
+/* un mixin para mis footers */
+/* una variable para los h1,2,3,etc*/
+/* para los background */
+/* fuente predeterminada para detalles de footer */
+.merch-bdy {
+  background-color: #fff5ee;
+}
+
 .produ-nvb .the-third {
   overflow-x: auto;
   white-space: nowrap;
@@ -605,7 +619,7 @@
 }
 .int-merch .first-ti-me h1 {
   font-family: "Lilita One", sans-serif;
-  color: #0a0a0a;
+  color: #284b63;
 }
 .int-merch .text-comment {
   margin-top: 25px;
@@ -705,7 +719,7 @@
 }
 .coming h2 {
   font-family: "Lilita One", sans-serif;
-  color: #0a0a0a;
+  color: #284b63;
 }
 .coming div {
   margin-top: 25px;
@@ -714,8 +728,8 @@
   display: flex;
   justify-content: center;
   font-family: "Bebas Neue", sans-serif;
-  border-top: 2px solid white;
-  background-color: #bdb76b;
+  border-top: 4px solid #284b63;
+  background-color: #ffffff;
 }
 .buy-foot-aut div {
   margin-top: 5px;
@@ -725,30 +739,31 @@
 .serv-nav .the-second ul li a, .finder .th-last ul li a, .navb .the-first ul li a, .produ-nvb .the-third ul li a {
   font-family: "Bebas Neue", sans-serif;
   text-decoration: none;
-  color: gray;
+  color: #3c6e71;
 }
 
 .carro-fot h2, .carro-fot h3 {
-  color: #ffffe0;
+  color: #284b63;
   font-family: "Lobster", sans-serif;
   font-size: 40px;
 }
 
-.ser-bdy, .end-bdy, .noso-bdy, .merch-bdy {
-  background-image: url(../../Imagenes/page-background.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+.serv-nav, .finder, .navb, .produ-nvb {
+  background-color: #ffffff;
+  padding: 10px;
+  text-align: center;
+  border-top: 4px solid #3c6e71;
+  border-bottom: 4px solid #3c6e71;
 }
 
 /* un mixin para mis footers */
 /* una variable para los h1,2,3,etc*/
-.serv-nav {
-  background-color: #FFF8DC;
-  padding: 10px;
-  text-align: center;
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
+/* para los background */
+/* fuente predeterminada para detalles de footer */
+.ser-bdy {
+  background-color: #fff5ee;
 }
+
 .serv-nav .the-second {
   overflow-x: auto;
   white-space: nowrap;
@@ -806,7 +821,7 @@
   margin: 0px 15px;
   text-align: center;
   font-family: "Lilita One", sans-serif;
-  color: #0a0a0a;
+  color: #284b63;
 }
 .discover .modi-text {
   padding: 5px;
@@ -828,7 +843,7 @@
 .ab-crd div h2 {
   font-family: "Lilita One", sans-serif;
   font-size: 3em;
-  color: #0a0a0a;
+  color: #284b63;
 }
 .ab-crd .cards {
   display: flex;
@@ -837,13 +852,13 @@
   gap: 25px;
 }
 .ab-crd .cards .red {
-  background-color: #f43f5e;
+  background-color: #bfdbf7;
 }
 .ab-crd .cards .blue {
-  background-color: #3b82f6;
+  background-color: #284b63;
 }
 .ab-crd .cards .green {
-  background-color: #22c55e;
+  background-color: #0fa3b1;
 }
 .ab-crd .cards .card {
   display: flex;
@@ -886,15 +901,15 @@
 }
 .adventure div h3 {
   font-family: "Lilita One", sans-serif;
-  color: #0a0a0a;
+  color: #284b63;
 }
 
 .foot-ser-aut {
   display: flex;
   justify-content: center;
   font-family: "Bebas Neue", sans-serif;
-  border-top: 2px solid white;
-  background-color: #bdb76b;
+  border-top: 4px solid #284b63;
+  background-color: #ffffff;
 }
 .foot-ser-aut div {
   margin-top: 5px;

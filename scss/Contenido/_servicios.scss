@@ -1,17 +1,14 @@
 @import '../bases/extends';
 @import'../bases/mixins';
 @import '../bases/variables';
+@import '../bases/mapas';
 
 .ser-bdy {
-    @extend %pag-bk
+    background-color: $background;
 }
 
 .serv-nav {
-    background-color: #FFF8DC;
-    padding: 10px;
-    text-align: center;
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
+    @extend %nav-ext;
 
     .the-second {
         overflow-x: auto;
@@ -121,15 +118,15 @@
         gap: 25px;
       
         .red {
-          background-color: #f43f5e;
+          background-color: #bfdbf7;
         }
       
         .blue {
-          background-color: #3b82f6;
+          background-color: #284b63;
         }
       
         .green {
-          background-color: #22c55e;
+          background-color: #0fa3b1;
         }
       
         .card {

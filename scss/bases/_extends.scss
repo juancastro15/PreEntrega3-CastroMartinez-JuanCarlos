@@ -3,17 +3,19 @@
 %botones {
     font-family: "Bebas Neue", sans-serif;
     text-decoration: none;
-    color: gray;
+    color: #3c6e71;
 }
 
 %ini-bot {
-    color: #ffffe0;
+    color: #284b63;
     font-family: "Lobster", sans-serif;
     font-size: 40px;
 }
 
-%pag-bk {
-    background-image: url(../../Imagenes/page-background.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+%nav-ext {
+    background-color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    border-top: 4px solid #3c6e71;
+    border-bottom: 4px solid #3c6e71;
 }

@@ -1,9 +1,10 @@
 @import '../bases/extends';
+@import'../bases/mixins';
+@import '../bases/variables';
+@import '../bases/mapas';
 
 .init {
-    background-image: url(../Imagenes/mlaga-2.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: $background;
 }
 
 .first-logo {
@@ -40,6 +41,11 @@
 
 .introduction {
     padding: 10px;
+    background-image: url(../../Imagenes/mlaga-2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top: 4px solid #3c6e71;
+    border-bottom: 4px solid #3c6e71;
 
     div {
 
@@ -101,7 +107,7 @@
                     border-radius: 0.8em;
                     cursor: pointer;
                     border: none;
-                    background: linear-gradient(to right, #8e2de2, #4a00e0);
+                    background: linear-gradient(to right, #3c6e71, #284b63);
                     color: ghostwhite;
                     overflow: hidden;
                     display: flex;
@@ -217,8 +223,7 @@
     display: flex;
     justify-content: center;
     font-family: "Bebas Neue", sans-serif;
-    border-top: 2px solid white;
-    background-color: #bdb76b;
+    @include resolutive;
 
     div {
         margin-top: 5px;
