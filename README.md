@@ -1,6 +1,6 @@
 # Conoce Malaga
 <h1 align="center">Hello 👋, I am Juan Carlos Castro Martinez</h1>
-<h3 align="center">Full Stack Developer student at CoderHouse</h3>
+<h3 align="center">Full Stack Developer Student at CoderHouse</h3>
 
 - 🔭 I am currently taking a **Web Developer Course**
 
