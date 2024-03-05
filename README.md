@@ -2,9 +2,9 @@
 <h1 align="center">Hello 👋, I am Juan Carlos Castro Martinez</h1>
 <h3 align="center">Full Stack Developer Student at CoderHouse</h3>
 
-- 🔭 I am currently taking a **Web Developer Course**
+- 🔭 I am currently taking the **Web Developer Course**
 
-- 🌱 At the moment I am working on my final project **Conoce Malaga** 
+- 🌱 At the moment, I am working on my final project **Conoce Malaga** 
 
 - 📫 Would like to contact? **juancacastrotrader@gmail.com**
 
