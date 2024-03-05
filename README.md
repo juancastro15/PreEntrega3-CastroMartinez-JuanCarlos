@@ -1,12 +1,12 @@
 # Conoce Malaga
-<h1 align="center">Hola 👋, soy Juan Carlos Castro Martinez</h1>
-<h3 align="center">Estudiante de Full Stack en CoderHouse</h3>
+<h1 align="center">Hello 👋, I am Juan Carlos Castro Martinez</h1>
+<h3 align="center">Full Stack Developer student at CoderHouse</h3>
 
-- 🔭 actualmente me encuentro trabajando en el proyecto **Conoce Malaga**
+- 🔭 I am currently taking a **Web Developer Course**
 
-- 🌱 Actualmente estoy estudiando el curso de **Desarrollo Web**
+- 🌱 At the moment I am working on my final project **Conoce Malaga** 
 
-- 📫 Como contactarme? **juancacastrotrader@gmail.com**
+- 📫 Would like to contact? **juancacastrotrader@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
